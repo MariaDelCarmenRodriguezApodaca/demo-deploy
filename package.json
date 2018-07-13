@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "Heroku-postbuild":"ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -57,3 +57,5 @@
     "npm": "6.1.0"
   }
 }
+
+
